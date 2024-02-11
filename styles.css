@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700&family=Lexend+Deca&family=Pixelify+Sans&display=swap');
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.filha{
+    background-color: hsl(244, 38%, 16%);
+    padding: 80px;
+    border-radius: 10px;
+}
+
+.texto-principal{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
+}
+
+.destaque{
+    color: hsl(277, 64%, 61%);
+}
+
+.texto{
+    color:  hsla(0, 0%, 100%, 0.75);
+    background-color:  Slightly transparent white (stat headings) hsla(0, 0%, 100%, 0.6);
+
+}
+
+.mulheres {
+    width: 355px;
+    height: 385px;
+    background-image: url('images/image-header-desktop.jpg'); 
+    background-color: hsl(280, 65%, 70%);
+
+
+
+
+
+    background-blend-mode: overlay; 
+    border-radius: 2px;
+}
+
+
+li{
+    color: white;
+}
+
+
+.agruparLetras{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.ul-numeros{
+    font-size: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+
+ul, li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px; 
+    padding-right: 20px; 
+}
+
+
+.ul-letras li{
+    color:  hsla(0, 0%, 100%, 0.75);
+    background-color:  Slightly transparent white (stat headings) hsla(0, 0%, 100%, 0.6);
+    font-size: 15px;
+}
+
+@media(max-width: 768px) {
+    main {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+
+    .texto {
+
+        padding: 5px;
+    }
+
+    ul {
+        display: flex;
+    }
+
+
+
+    br {
+        display: none;
+    }
+
+    .mulheres {
+        width: 100%;
+     
+    }
+
+
+
+}
